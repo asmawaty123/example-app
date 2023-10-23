@@ -22,3 +22,6 @@ Route::get('/', function () {
 Route::get('/halo', function () {
     return view('welcome');
 });
+Route::get('/ab', function () {
+    return view('welcome');
+});
